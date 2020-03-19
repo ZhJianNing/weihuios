@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					//ipa的链接（替换后删除这行提示）
+					<string>https://？？/edition/1563197723503_zl0715-succeed.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					//512像素图片的链接（替换后删除这行提示）					
+					<string>https://？？/edition/1563185766119_512*512.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					//57像素图片的链接（替换后删除这行提示）
+					<string>https://？？/edition/1563185730836_57*57.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				//bundle ID（替换后删除这行提示）
+				<string>com.min.demo</string>
+				<key>bundle-version</key>
+				//bundle-version（替换后删除这行提示）
+				<string>1.0.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				//安装提示title（替换后删除这行提示）
+				<string>章立</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

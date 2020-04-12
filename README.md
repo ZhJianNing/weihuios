@@ -1,4 +1,4 @@
-# weihumis   ios  app  install
+# WeiHuMis   ios  app  install
 1、制作plist文件
 指定ipa包下载地址；
 指定应用小图、大图下载地址；
@@ -9,10 +9,10 @@ github创建项目
 上传plist文件
 （也可以吧ipa包、图片等也上传到github上，如果自己有服务器和公网ip，也可以放到自己服务器上）
 点开文件，点击raw按钮生成plist文件下载地址
-（https://raw.githubusercontent.com/zjn-helloWorld/weihuios/master/weihu.plist）
+（https://raw.githubusercontent.com/ZhJianNing/weihuios/master/weihu.plist）
 
 制作ios下载应用能识别的地址（加上前缀itms-services://?action=download-manifest&url=）
-itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/zjn-helloWorld/weihuios/master/weihu.plist
+itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/ZhJianNing/weihuios/master/weihu.plist
 
 3、制作二维码
 
